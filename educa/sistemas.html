@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evaluación de HTML5</title>
+  <link rel="stylesheet" href="css/sistemas.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Evaluación de HTML5 - 5to de Secundaria</h1>
+    <form id="quiz-form">
+      <!-- Pregunta 1 -->
+      <div class="question">
+        <p>1. ¿Qué significa HTML?</p>
+        <input type="radio" name="q1" value="HyperText Markup Language"> HyperText Markup Language<br>
+        <input type="radio" name="q1" value="HyperText Makeup Language"> HyperText Makeup Language<br>
+        <input type="radio" name="q1" value="HyperText Markdown Language"> HyperText Markdown Language<br>
+      </div>
+
+      <!-- Pregunta 2 -->
+      <div class="question">
+        <p>2. ¿Cuál es la etiqueta correcta para crear un enlace en HTML?</p>
+        <input type="radio" name="q2" value="&lt;link&gt;"> &lt;link&gt;<br>
+        <input type="radio" name="q2" value="&lt;a&gt;"> &lt;a&gt;<br>
+        <input type="radio" name="q2" value="&lt;href&gt;"> &lt;href&gt;<br>
+      </div>
+
+      <!-- Pregunta 3 -->
+      <div class="question">
+        <p>3. ¿Qué etiqueta se usa para definir una imagen en HTML?</p>
+        <input type="radio" name="q3" value="&lt;img&gt;"> &lt;img&gt;<br>
+        <input type="radio" name="q3" value="&lt;picture&gt;"> &lt;picture&gt;<br>
+        <input type="radio" name="q3" value="&lt;figure&gt;"> &lt;figure&gt;<br>
+      </div>
+
+      <!-- Pregunta 4 -->
+      <div class="question">
+        <p>4. ¿Cuál es el propósito del atributo "alt" en una etiqueta &lt;img&gt;?</p>
+        <input type="radio" name="q4" value="Mostrar texto alternativo si la imagen no se carga"> Mostrar texto alternativo si la imagen no se carga<br>
+        <input type="radio" name="q4" value="Cambiar el tamaño de la imagen"> Cambiar el tamaño de la imagen<br>
+        <input type="radio" name="q4" value="Definir la posición de la imagen"> Definir la posición de la imagen<br>
+      </div>
+
+      <!-- Pregunta 5 -->
+      <div class="question">
+        <p>5. ¿Cuál es la etiqueta correcta para crear una lista ordenada en HTML?</p>
+        <input type="radio" name="q5" value="&lt;ul&gt;"> &lt;ul&gt;<br>
+        <input type="radio" name="q5" value="&lt;ol&gt;"> &lt;ol&gt;<br>
+        <input type="radio" name="q5" value="&lt;li&gt;"> &lt;li&gt;<br>
+      </div>
+
+      <!-- Pregunta 6 -->
+      <div class="question">
+        <p>6. ¿Cuál de estas etiquetas HTML se usa para definir un párrafo?</p>
+        <input type="radio" name="q6" value="&lt;div&gt;"> &lt;div&gt;<br>
+        <input type="radio" name="q6" value="&lt;p&gt;"> &lt;p&gt;<br>
+        <input type="radio" name="q6" value="&lt;section&gt;"> &lt;section&gt;<br>
+      </div>
+
+      <!-- Pregunta 7 -->
+      <div class="question">
+        <p>7. ¿Cuál es la etiqueta correcta para insertar una tabla en HTML?</p>
+        <input type="radio" name="q7" value="&lt;table&gt;"> &lt;table&gt;<br>
+        <input type="radio" name="q7" value="&lt;tab&gt;"> &lt;tab&gt;<br>
+        <input type="radio" name="q7" value="&lt;tbody&gt;"> &lt;tbody&gt;<br>
+      </div>
+
+      <!-- Botón para enviar -->
+      <button type="button" onclick="submitQuiz()">Enviar</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="js/sistemas.js"></script>
+</body>
+</html>

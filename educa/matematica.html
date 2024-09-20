@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evaluación de Geometría</title>
+  <link rel="stylesheet" href="css/matematica.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Evaluación de Geometría</h1>
+    <form id="quiz-form">
+      <!-- Pregunta 1 -->
+      <div class="question">
+        <p>1. ¿Cuál es la fórmula del área de un círculo?</p>
+        <p>\[ A = \pi r^2 \]</p>
+        <input type="radio" name="q1" value="A = 2\pi r"> \( A = 2\pi r \)<br>
+        <input type="radio" name="q1" value="A = \pi r^2"> \( A = \pi r^2 \)<br>
+        <input type="radio" name="q1" value="A = \frac{1}{2} \pi r^2"> \( A = \frac{1}{2} \pi r^2 \)<br>
+      </div>
+
+      <!-- Pregunta 2 -->
+      <div class="question">
+        <p>2. ¿Cuál es el teorema de Pitágoras?</p>
+        <p>\[ a^2 + b^2 = c^2 \]</p>
+        <input type="radio" name="q2" value="a^2 + b^2 = c^2"> \( a^2 + b^2 = c^2 \)<br>
+        <input type="radio" name="q2" value="a^2 - b^2 = c^2"> \( a^2 - b^2 = c^2 \)<br>
+        <input type="radio" name="q2" value="a^2 + b^2 = 2c^2"> \( a^2 + b^2 = 2c^2 \)<br>
+      </div>
+
+      <!-- Pregunta 3 -->
+      <div class="question">
+        <p>3. ¿Cómo se calcula el perímetro de un cuadrado?</p>
+        <p>\[ P = 4 \times lado \]</p>
+        <input type="radio" name="q3" value="P = 2 \times lado"> \( P = 2 \times lado \)<br>
+        <input type="radio" name="q3" value="P = 4 \times lado"> \( P = 4 \times lado \)<br>
+        <input type="radio" name="q3" value="P = lado^2"> \( P = lado^2 \)<br>
+      </div>
+
+      <!-- Pregunta 4 -->
+      <div class="question">
+        <p>4. ¿Cuál es la fórmula del volumen de un cubo?</p>
+        <p>\[ V = lado^3 \]</p>
+        <input type="radio" name="q4" value="V = lado^2"> \( V = lado^2 \)<br>
+        <input type="radio" name="q4" value="V = lado^3"> \( V = lado^3 \)<br>
+        <input type="radio" name="q4" value="V = 4 \times lado^3"> \( V = 4 \times lado^3 \)<br>
+      </div>
+
+      <!-- Pregunta 5 -->
+      <div class="question">
+        <p>5. ¿Cuál es el ángulo total de un triángulo?</p>
+        <p>\[ 180^\circ \]</p>
+        <input type="radio" name="q5" value="90^\circ"> \( 90^\circ \)<br>
+        <input type="radio" name="q5" value="180^\circ"> \( 180^\circ \)<br>
+        <input type="radio" name="q5" value="360^\circ"> \( 360^\circ \)<br>
+      </div>
+
+      <!-- Botón para enviar -->
+      <button type="button" onclick="submitQuiz()">Enviar</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="js/matematica.js"></script>
+</body>
+</html>

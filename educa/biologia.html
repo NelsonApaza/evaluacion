@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evaluación de Biología</title>
+  <link rel="stylesheet" href="css/biologia.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Evaluación de Biología - 5to de Secundaria</h1>
+    <form id="quiz-form">
+      <!-- Pregunta 1 -->
+      <div class="question">
+        <p>1. ¿Cuál es la molécula portadora de la información genética?</p>
+        <input type="radio" name="q1" value="Proteínas"> Proteínas<br>
+        <input type="radio" name="q1" value="ADN"> ADN<br>
+        <input type="radio" name="q1" value="Lípidos"> Lípidos<br>
+      </div>
+
+      <!-- Pregunta 2 -->
+      <div class="question">
+        <p>2. ¿Qué orgánulo celular se encarga de la producción de energía?</p>
+        <input type="radio" name="q2" value="Núcleo"> Núcleo<br>
+        <input type="radio" name="q2" value="Mitocondria"> Mitocondria<br>
+        <input type="radio" name="q2" value="Ribosomas"> Ribosomas<br>
+      </div>
+
+      <!-- Pregunta 3 -->
+      <div class="question">
+        <p>3. ¿Cuál es el proceso por el cual las plantas producen su propio alimento?</p>
+        <input type="radio" name="q3" value="Respiración"> Respiración<br>
+        <input type="radio" name="q3" value="Fotosíntesis"> Fotosíntesis<br>
+        <input type="radio" name="q3" value="Digestión"> Digestión<br>
+      </div>
+
+      <!-- Pregunta 4 -->
+      <div class="question">
+        <p>4. ¿Qué tipo de célula tiene una pared celular?</p>
+        <input type="radio" name="q4" value="Animal"> Animal<br>
+        <input type="radio" name="q4" value="Vegetal"> Vegetal<br>
+        <input type="radio" name="q4" value="Bacteriana"> Bacteriana<br>
+      </div>
+
+      <!-- Pregunta 5 -->
+      <div class="question">
+        <p>5. ¿Qué molécula es la fuente principal de energía para los organismos vivos?</p>
+        <input type="radio" name="q5" value="ADP"> ADP<br>
+        <input type="radio" name="q5" value="ATP"> ATP<br>
+        <input type="radio" name="q5" value="NADPH"> NADPH<br>
+      </div>
+
+      <!-- Pregunta 6 -->
+      <div class="question">
+        <p>6. ¿Qué estructura se encarga de proteger el núcleo en la célula eucariota?</p>
+        <input type="radio" name="q6" value="Membrana nuclear"> Membrana nuclear<br>
+        <input type="radio" name="q6" value="Citoplasma"> Citoplasma<br>
+        <input type="radio" name="q6" value="Membrana plasmática"> Membrana plasmática<br>
+      </div>
+
+      <!-- Pregunta 7 -->
+      <div class="question">
+        <p>7. ¿Cómo se llama el proceso de división celular en organismos eucariotas?</p>
+        <input type="radio" name="q7" value="Meiosis"> Meiosis<br>
+        <input type="radio" name="q7" value="Mitosis"> Mitosis<br>
+        <input type="radio" name="q7" value="Citocinesis"> Citocinesis<br>
+      </div>
+
+      <!-- Botón para enviar -->
+      <button type="button" onclick="submitQuiz()">Enviar</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="js/biologia.js"></script>
+</body>
+</html>
