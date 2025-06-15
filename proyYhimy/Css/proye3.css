@@ -1,0 +1,118 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navegación */
+nav {
+    position: fixed;
+    width: 100%;
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background: url('carpa.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.seccion {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Productos */
+.productos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.producto-item:hover {
+    transform: scale(1.05);
+}
+
+.producto-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Contacto */
+#contacto form {
+    max-width: 500px;
+    margin: auto;
+}
+
+#contactForm input, #contactForm textarea, #contactForm button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#contactForm button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
